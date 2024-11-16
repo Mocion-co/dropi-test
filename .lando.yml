@@ -1,0 +1,29 @@
+name: dropi-test
+recipe: drupal10
+config:
+  webroot: web
+  php: '8.3'
+
+services:
+  appserver:
+    type: php:8.3
+    config:
+      php: .lando/config/php.ini
+  database:
+    type: mysql:8.0
+    config:
+      database: .lando/config/my.cnf
+
+tooling:
+  drush:
+    service: appserver
+    cmd: /app/vendor/bin/drush
+    env:
+      DRUSH_OPTIONS_URI: "https://dropi-test.lndo.site"
+  phpcbf:
+    service: appserver
+    cmd: /app/vendor/bin/phpcbf --standard=Drupal,DrupalPractice
+  phpcs:
+    service: appserver
+    cmd: /app/vendor/bin/phpcs --standard=Drupal,DrupalPractice
+

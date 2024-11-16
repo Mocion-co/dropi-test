@@ -1,0 +1,22 @@
+uuid: 1c312c6b-0bb9-48aa-b324-b91a72d02bd4
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kart
+_core:
+  default_config_hash: v3ZiUY0Uoig8LMdG6l1KNwFZpC-DRvf5ZjBdZ5HdhUQ
+id: kart_breadcrumbs
+theme: kart
+region: page_header
+weight: -12
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Enlaces de ayuda a la navegación'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,9 @@
+uuid: 14fbb71f-389f-4067-8cdb-e06c15ae07aa
+langcode: es
+status: true
+dependencies: {  }
+currencyCode: CLP
+name: 'Peso Chileno'
+numericCode: '152'
+symbol: CLP
+fractionDigits: 0

@@ -1,0 +1,12 @@
+uuid: d80165a9-1416-484d-975f-e14e950310a7
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3vA4FKQ1Qu8B1R8UdGPnmMfJrYO6Y6uMqeNgDgXxods
+id: default
+label: 'Por defecto'
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: true

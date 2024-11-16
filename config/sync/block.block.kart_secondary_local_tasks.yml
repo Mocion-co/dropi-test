@@ -1,0 +1,22 @@
+uuid: 84256f80-df65-4613-bd89-608712feea8c
+langcode: es
+status: true
+dependencies:
+  theme:
+    - kart
+_core:
+  default_config_hash: m2AJO46zL_Q8R8XF52kSj6zr_rB0aA4Uak-XuwWKI7M
+id: kart_secondary_local_tasks
+theme: kart
+region: content
+weight: -12
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Solapas secundarias'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

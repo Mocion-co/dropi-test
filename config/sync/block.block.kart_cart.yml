@@ -1,0 +1,24 @@
+uuid: c2e2933e-9a53-43c3-9dd5-71e2a4ff96e4
+langcode: es
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - kart
+_core:
+  default_config_hash: HUWV788R5zWFzgV76-IQ8wZh_GWQQyqs5tMH-Rl_pKI
+id: kart_cart
+theme: kart
+region: header
+weight: -8
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: 'Cesta de la compra'
+  label_display: '0'
+  provider: commerce_cart
+  dropdown: true
+  show_if_empty: true
+visibility: {  }

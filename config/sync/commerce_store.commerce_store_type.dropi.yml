@@ -1,0 +1,9 @@
+uuid: 15cd568c-f46a-43a2-adc4-ab1f2ffe5a59
+langcode: es
+status: true
+dependencies: {  }
+id: dropi
+label: Dropi
+traits: {  }
+locked: false
+description: empty

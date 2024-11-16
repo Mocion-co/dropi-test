@@ -1,0 +1,9 @@
+uuid: 2b6a9ef2-8de7-4e63-837e-828861ecfc9c
+langcode: es
+status: true
+dependencies: {  }
+currencyCode: PAB
+name: 'Balboa Panameño'
+numericCode: '590'
+symbol: PAB
+fractionDigits: 2

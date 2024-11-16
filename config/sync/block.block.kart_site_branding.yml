@@ -1,0 +1,25 @@
+uuid: 7a945ce0-472c-45e0-b651-7cc9dbf7f56e
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kart
+_core:
+  default_config_hash: 7k-gScj6PtYDm9PeI6oKk01F5keBnq1xoh2xS5OvaaI
+id: kart_site_branding
+theme: kart
+region: site_branding
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Marca del sitio'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

@@ -1,0 +1,4 @@
+services:
+  dropi.service:
+    class: Drupal\dropi\Service\DropiService
+    arguments: ['@config.factory', '@http_client', '@logger.factory', '@entity_type.manager']

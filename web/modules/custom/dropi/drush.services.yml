@@ -1,0 +1,6 @@
+services:
+  dropi.commands:
+    class: Drupal\dropi\Commands\DropiCommands
+    arguments: ['@dropi.service']
+    tags:
+      - { name: drush.command }

@@ -1,0 +1,9 @@
+uuid: 3b2b6236-0c39-4564-8e5f-df1df7429372
+langcode: es
+status: true
+dependencies: {  }
+currencyCode: PYG
+name: 'Guaraní Paraguayo'
+numericCode: '600'
+symbol: PYG
+fractionDigits: 0

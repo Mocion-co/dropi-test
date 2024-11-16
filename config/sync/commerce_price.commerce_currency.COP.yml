@@ -1,0 +1,9 @@
+uuid: 614b2dd3-a8c8-475d-bb13-9d4ed3d238f7
+langcode: es
+status: true
+dependencies: {  }
+currencyCode: COP
+name: 'peso colombiano'
+numericCode: '170'
+symbol: COP
+fractionDigits: 2

@@ -1,0 +1,23 @@
+uuid: 76d601ae-8d8f-4ce6-b616-bacb210f6f72
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - kart
+_core:
+  default_config_hash: I8g6ZFPKWU_WoUSby_lySuEcrkOaFi7_CFyTAzPQKVs
+id: kart_syndicate
+theme: kart
+region: hidden_blocks
+weight: -15
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'Canal RSS'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

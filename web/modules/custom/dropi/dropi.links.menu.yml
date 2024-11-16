@@ -1,0 +1,6 @@
+dropi.admin_settings:
+  title: 'Dropi settings'
+  description: 'Configure the Dropi third-party API integration'
+  parent: system.admin_config_services
+  route_name: dropi.settings
+  weight: 100

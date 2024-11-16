@@ -1,0 +1,1855 @@
+{
+  "isSuccess": true,
+  "status": 200,
+  "objects": [
+    {
+      "id": 309,
+      "name": "TAPAS DE SILICONAS",
+      "type": "SIMPLE",
+      "sale_price": "13500.00",
+      "suggested_price": "52900.00",
+      "privated_product": false,
+      "sku": "11080000",
+      "user": {
+        "id": 47,
+        "subscription_plan_id": 4,
+        "name": "ADMA",
+        "white_brand_id": 1,
+        "category_id": 1,
+        "store_name": "ADMA",
+        "plan": {
+          "id": 4,
+          "name": "SUPPLIER PREMIUM",
+          "description": "El proveedor gestiona su log\u00edstica pero genera la gu\u00eda con el sistema de dropi, y no se le cobra comision",
+          "active": true,
+          "created_at": null,
+          "updated_at": "2022-07-05 18:12:09",
+          "auto_manage_delivery": true,
+          "type": "SUPPLIER",
+          "use_fullfillment": false,
+          "dropi_shipping_increment_amount": "1000.00",
+          "dropi_percent_product_supplier": "0.00",
+          "commission_product_supplier": "0.00",
+          "dropi_percent_product_drops": "5.00",
+          "deleted_at": null,
+          "profit_percentage_orders_influencers": "0.00",
+          "white_brand_id": 1,
+          "ignore_dropi_percent_product_supplier": false,
+          "dropi_product_supplier_increment_fixed": false,
+          "wb_comission_amount": null,
+          "wb_pay_comission_to": null,
+          "supplier_commission": null
+        },
+        "category_user": {
+          "id": 1,
+          "created_at": "2024-04-30 07:14:27",
+          "updated_at": null,
+          "name": "PREMIUM",
+          "type": "SUPPLIER",
+          "status": "activo",
+          "icon": "premium",
+          "style": "-",
+          "description": "-",
+          "max_order_quantity": 0,
+          "min_order_quantity": 0,
+          "user_id": 22,
+          "deleted_at": null,
+          "role_id": 3,
+          "reel": true,
+          "swipe": false
+        },
+        "white_brand": {
+          "id": 1
+        }
+      },
+      "variations": [],
+      "gallery": [
+        {
+          "url": "uploads\/images\/products\/309\/WhatsApp Image 2020-10-19 at 11.21.59 AM (1).jpeg",
+          "main": true,
+          "urlS3": "colombia\/products\/309\/17031032941703103294WhatsApp Image 2020-10-19 at 11.21.59 AM (1).jpeg"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Cocina",
+          "pivot": {
+            "product_id": 309,
+            "category_id": 6
+          }
+        }
+      ],
+      "private_product_inventories": [],
+      "add_stock_in_return": null,
+      "import_list": [],
+      "warehouse_product": [
+        {
+          "id": 81845,
+          "warehouse_id": 28,
+          "product_id": 309,
+          "created_at": null,
+          "updated_at": "2024-05-30 23:26:11",
+          "stock": 50
+        }
+      ],
+      "dropi_percent_product_supplier": null,
+      "dropi_product_supplier_increment_fixed": false,
+      "dropi_percent_product_drops": null,
+      "external_id": null
+    },
+    {
+      "id": 317,
+      "name": "REVOFLEX",
+      "type": "SIMPLE",
+      "sale_price": "25000.00",
+      "suggested_price": "64900.00",
+      "privated_product": false,
+      "sku": "80220000",
+      "user": {
+        "id": 47,
+        "subscription_plan_id": 4,
+        "name": "ADMA",
+        "white_brand_id": 1,
+        "category_id": 1,
+        "store_name": "ADMA",
+        "plan": {
+          "id": 4,
+          "name": "SUPPLIER PREMIUM",
+          "description": "El proveedor gestiona su log\u00edstica pero genera la gu\u00eda con el sistema de dropi, y no se le cobra comision",
+          "active": true,
+          "created_at": null,
+          "updated_at": "2022-07-05 18:12:09",
+          "auto_manage_delivery": true,
+          "type": "SUPPLIER",
+          "use_fullfillment": false,
+          "dropi_shipping_increment_amount": "1000.00",
+          "dropi_percent_product_supplier": "0.00",
+          "commission_product_supplier": "0.00",
+          "dropi_percent_product_drops": "5.00",
+          "deleted_at": null,
+          "profit_percentage_orders_influencers": "0.00",
+          "white_brand_id": 1,
+          "ignore_dropi_percent_product_supplier": false,
+          "dropi_product_supplier_increment_fixed": false,
+          "wb_comission_amount": null,
+          "wb_pay_comission_to": null,
+          "supplier_commission": null
+        },
+        "category_user": {
+          "id": 1,
+          "created_at": "2024-04-30 07:14:27",
+          "updated_at": null,
+          "name": "PREMIUM",
+          "type": "SUPPLIER",
+          "status": "activo",
+          "icon": "premium",
+          "style": "-",
+          "description": "-",
+          "max_order_quantity": 0,
+          "min_order_quantity": 0,
+          "user_id": 22,
+          "deleted_at": null,
+          "role_id": 3,
+          "reel": true,
+          "swipe": false
+        },
+        "white_brand": {
+          "id": 1
+        }
+      },
+      "variations": [],
+      "gallery": [
+        {
+          "url": "uploads\/images\/products\/317\/revoflex.jpg",
+          "main": true,
+          "urlS3": "colombia\/products\/317\/17031032931703103293revoflex.jpg"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Deportes",
+          "pivot": {
+            "product_id": 317,
+            "category_id": 15
+          }
+        }
+      ],
+      "private_product_inventories": [],
+      "add_stock_in_return": null,
+      "import_list": [],
+      "warehouse_product": [
+        {
+          "id": 89760,
+          "warehouse_id": 28,
+          "product_id": 317,
+          "created_at": null,
+          "updated_at": "2024-05-30 23:26:11",
+          "stock": 0
+        }
+      ],
+      "dropi_percent_product_supplier": null,
+      "dropi_product_supplier_increment_fixed": false,
+      "dropi_percent_product_drops": null,
+      "external_id": null
+    },
+    {
+      "id": 318,
+      "name": "LIMPIADOR DE VIDRIO",
+      "type": "SIMPLE",
+      "sale_price": "15000.00",
+      "suggested_price": "54900.00",
+      "privated_product": false,
+      "sku": "20460000",
+      "user": {
+        "id": 47,
+        "subscription_plan_id": 4,
+        "name": "ADMA",
+        "white_brand_id": 1,
+        "category_id": 1,
+        "store_name": "ADMA",
+        "plan": {
+          "id": 4,
+          "name": "SUPPLIER PREMIUM",
+          "description": "El proveedor gestiona su log\u00edstica pero genera la gu\u00eda con el sistema de dropi, y no se le cobra comision",
+          "active": true,
+          "created_at": null,
+          "updated_at": "2022-07-05 18:12:09",
+          "auto_manage_delivery": true,
+          "type": "SUPPLIER",
+          "use_fullfillment": false,
+          "dropi_shipping_increment_amount": "1000.00",
+          "dropi_percent_product_supplier": "0.00",
+          "commission_product_supplier": "0.00",
+          "dropi_percent_product_drops": "5.00",
+          "deleted_at": null,
+          "profit_percentage_orders_influencers": "0.00",
+          "white_brand_id": 1,
+          "ignore_dropi_percent_product_supplier": false,
+          "dropi_product_supplier_increment_fixed": false,
+          "wb_comission_amount": null,
+          "wb_pay_comission_to": null,
+          "supplier_commission": null
+        },
+        "category_user": {
+          "id": 1,
+          "created_at": "2024-04-30 07:14:27",
+          "updated_at": null,
+          "name": "PREMIUM",
+          "type": "SUPPLIER",
+          "status": "activo",
+          "icon": "premium",
+          "style": "-",
+          "description": "-",
+          "max_order_quantity": 0,
+          "min_order_quantity": 0,
+          "user_id": 22,
+          "deleted_at": null,
+          "role_id": 3,
+          "reel": true,
+          "swipe": false
+        },
+        "white_brand": {
+          "id": 1
+        }
+      },
+      "variations": [],
+      "gallery": [
+        {
+          "url": "uploads\/images\/products\/318\/limpiavidrioiman1.jpg",
+          "main": true,
+          "urlS3": "colombia\/products\/318\/17031032931703103293limpiavidrioiman1.jpg"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Hogar",
+          "pivot": {
+            "product_id": 318,
+            "category_id": 1
+          }
+        }
+      ],
+      "private_product_inventories": [],
+      "add_stock_in_return": null,
+      "import_list": [],
+      "warehouse_product": [
+        {
+          "id": 109036,
+          "warehouse_id": 28,
+          "product_id": 318,
+          "created_at": null,
+          "updated_at": "2024-05-30 23:26:11",
+          "stock": 0
+        }
+      ],
+      "dropi_percent_product_supplier": null,
+      "dropi_product_supplier_increment_fixed": false,
+      "dropi_percent_product_drops": null,
+      "external_id": null
+    },
+    {
+      "id": 321,
+      "name": "PRESS CHOPER",
+      "type": "SIMPLE",
+      "sale_price": "18000.00",
+      "suggested_price": "57900.00",
+      "privated_product": false,
+      "sku": "10750000",
+      "user": {
+        "id": 47,
+        "subscription_plan_id": 4,
+        "name": "ADMA",
+        "white_brand_id": 1,
+        "category_id": 1,
+        "store_name": "ADMA",
+        "plan": {
+          "id": 4,
+          "name": "SUPPLIER PREMIUM",
+          "description": "El proveedor gestiona su log\u00edstica pero genera la gu\u00eda con el sistema de dropi, y no se le cobra comision",
+          "active": true,
+          "created_at": null,
+          "updated_at": "2022-07-05 18:12:09",
+          "auto_manage_delivery": true,
+          "type": "SUPPLIER",
+          "use_fullfillment": false,
+          "dropi_shipping_increment_amount": "1000.00",
+          "dropi_percent_product_supplier": "0.00",
+          "commission_product_supplier": "0.00",
+          "dropi_percent_product_drops": "5.00",
+          "deleted_at": null,
+          "profit_percentage_orders_influencers": "0.00",
+          "white_brand_id": 1,
+          "ignore_dropi_percent_product_supplier": false,
+          "dropi_product_supplier_increment_fixed": false,
+          "wb_comission_amount": null,
+          "wb_pay_comission_to": null,
+          "supplier_commission": null
+        },
+        "category_user": {
+          "id": 1,
+          "created_at": "2024-04-30 07:14:27",
+          "updated_at": null,
+          "name": "PREMIUM",
+          "type": "SUPPLIER",
+          "status": "activo",
+          "icon": "premium",
+          "style": "-",
+          "description": "-",
+          "max_order_quantity": 0,
+          "min_order_quantity": 0,
+          "user_id": 22,
+          "deleted_at": null,
+          "role_id": 3,
+          "reel": true,
+          "swipe": false
+        },
+        "white_brand": {
+          "id": 1
+        }
+      },
+      "variations": [],
+      "gallery": [
+        {
+          "url": "uploads\/images\/products\/321\/f335d8542d20ddd618dc77f0f4cc84ea.jpg",
+          "main": true,
+          "urlS3": "colombia\/products\/321\/17031032921703103292f335d8542d20ddd618dc77f0f4cc84ea.jpg"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Cocina",
+          "pivot": {
+            "product_id": 321,
+            "category_id": 6
+          }
+        }
+      ],
+      "private_product_inventories": [],
+      "add_stock_in_return": null,
+      "import_list": [],
+      "warehouse_product": [
+        {
+          "id": 72310,
+          "warehouse_id": 28,
+          "product_id": 321,
+          "created_at": null,
+          "updated_at": "2024-05-30 23:26:11",
+          "stock": 1
+        }
+      ],
+      "dropi_percent_product_supplier": null,
+      "dropi_product_supplier_increment_fixed": false,
+      "dropi_percent_product_drops": null,
+      "external_id": null
+    },
+    {
+      "id": 322,
+      "name": "SPEEDY CHOPPER GRANDE",
+      "type": "SIMPLE",
+      "sale_price": "29000.00",
+      "suggested_price": "68900.00",
+      "privated_product": false,
+      "sku": "10980003",
+      "user": {
+        "id": 47,
+        "subscription_plan_id": 4,
+        "name": "ADMA",
+        "white_brand_id": 1,
+        "category_id": 1,
+        "store_name": "ADMA",
+        "plan": {
+          "id": 4,
+          "name": "SUPPLIER PREMIUM",
+          "description": "El proveedor gestiona su log\u00edstica pero genera la gu\u00eda con el sistema de dropi, y no se le cobra comision",
+          "active": true,
+          "created_at": null,
+          "updated_at": "2022-07-05 18:12:09",
+          "auto_manage_delivery": true,
+          "type": "SUPPLIER",
+          "use_fullfillment": false,
+          "dropi_shipping_increment_amount": "1000.00",
+          "dropi_percent_product_supplier": "0.00",
+          "commission_product_supplier": "0.00",
+          "dropi_percent_product_drops": "5.00",
+          "deleted_at": null,
+          "profit_percentage_orders_influencers": "0.00",
+          "white_brand_id": 1,
+          "ignore_dropi_percent_product_supplier": false,
+          "dropi_product_supplier_increment_fixed": false,
+          "wb_comission_amount": null,
+          "wb_pay_comission_to": null,
+          "supplier_commission": null
+        },
+        "category_user": {
+          "id": 1,
+          "created_at": "2024-04-30 07:14:27",
+          "updated_at": null,
+          "name": "PREMIUM",
+          "type": "SUPPLIER",
+          "status": "activo",
+          "icon": "premium",
+          "style": "-",
+          "description": "-",
+          "max_order_quantity": 0,
+          "min_order_quantity": 0,
+          "user_id": 22,
+          "deleted_at": null,
+          "role_id": 3,
+          "reel": true,
+          "swipe": false
+        },
+        "white_brand": {
+          "id": 1
+        }
+      },
+      "variations": [],
+      "gallery": [
+        {
+          "url": "uploads\/images\/products\/322\/BYB0YEmy1607Ox0ul7EkCZY9YghM3eCwPIbh3ytJ.jpg",
+          "main": true,
+          "urlS3": "colombia\/products\/322\/17018913691701891369BYB0YEmy1607Ox0ul7EkCZY9YghM3eCwPIbh3ytJ.jpg"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Cocina",
+          "pivot": {
+            "product_id": 322,
+            "category_id": 6
+          }
+        }
+      ],
+      "private_product_inventories": [],
+      "add_stock_in_return": null,
+      "import_list": [],
+      "warehouse_product": [
+        {
+          "id": 106303,
+          "warehouse_id": 28,
+          "product_id": 322,
+          "created_at": null,
+          "updated_at": "2024-07-04 14:10:00",
+          "stock": 9
+        }
+      ],
+      "dropi_percent_product_supplier": null,
+      "dropi_product_supplier_increment_fixed": false,
+      "dropi_percent_product_drops": null,
+      "external_id": null
+    },
+    {
+      "id": 324,
+      "name": "LIMPIA VASO",
+      "type": "SIMPLE",
+      "sale_price": "12500.00",
+      "suggested_price": "39900.00",
+      "privated_product": false,
+      "sku": "LIMPIA VASO",
+      "user": {
+        "id": 47,
+        "subscription_plan_id": 4,
+        "name": "ADMA",
+        "white_brand_id": 1,
+        "category_id": 1,
+        "store_name": "ADMA",
+        "plan": {
+          "id": 4,
+          "name": "SUPPLIER PREMIUM",
+          "description": "El proveedor gestiona su log\u00edstica pero genera la gu\u00eda con el sistema de dropi, y no se le cobra comision",
+          "active": true,
+          "created_at": null,
+          "updated_at": "2022-07-05 18:12:09",
+          "auto_manage_delivery": true,
+          "type": "SUPPLIER",
+          "use_fullfillment": false,
+          "dropi_shipping_increment_amount": "1000.00",
+          "dropi_percent_product_supplier": "0.00",
+          "commission_product_supplier": "0.00",
+          "dropi_percent_product_drops": "5.00",
+          "deleted_at": null,
+          "profit_percentage_orders_influencers": "0.00",
+          "white_brand_id": 1,
+          "ignore_dropi_percent_product_supplier": false,
+          "dropi_product_supplier_increment_fixed": false,
+          "wb_comission_amount": null,
+          "wb_pay_comission_to": null,
+          "supplier_commission": null
+        },
+        "category_user": {
+          "id": 1,
+          "created_at": "2024-04-30 07:14:27",
+          "updated_at": null,
+          "name": "PREMIUM",
+          "type": "SUPPLIER",
+          "status": "activo",
+          "icon": "premium",
+          "style": "-",
+          "description": "-",
+          "max_order_quantity": 0,
+          "min_order_quantity": 0,
+          "user_id": 22,
+          "deleted_at": null,
+          "role_id": 3,
+          "reel": true,
+          "swipe": false
+        },
+        "white_brand": {
+          "id": 1
+        }
+      },
+      "variations": [],
+      "gallery": [
+        {
+          "url": "uploads\/images\/products\/324\/WhatsApp Image 2020-10-09 at 11.02.43 AM.jpeg",
+          "main": true,
+          "urlS3": "colombia\/products\/324\/17031032921703103292WhatsApp Image 2020-10-09 at 11.02.43 AM.jpeg"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Cocina",
+          "pivot": {
+            "product_id": 324,
+            "category_id": 6
+          }
+        }
+      ],
+      "private_product_inventories": [],
+      "add_stock_in_return": null,
+      "import_list": [],
+      "warehouse_product": [
+        {
+          "id": 56403,
+          "warehouse_id": 28,
+          "product_id": 324,
+          "created_at": null,
+          "updated_at": "2024-10-06 11:04:00",
+          "stock": 193
+        }
+      ],
+      "dropi_percent_product_supplier": null,
+      "dropi_product_supplier_increment_fixed": false,
+      "dropi_percent_product_drops": null,
+      "external_id": null
+    },
+    {
+      "id": 328,
+      "name": "SOPORTE DE BA\u00d1O",
+      "type": "SIMPLE",
+      "sale_price": "17500.00",
+      "suggested_price": "59900.00",
+      "privated_product": false,
+      "sku": "20850000",
+      "user": {
+        "id": 47,
+        "subscription_plan_id": 4,
+        "name": "ADMA",
+        "white_brand_id": 1,
+        "category_id": 1,
+        "store_name": "ADMA",
+        "plan": {
+          "id": 4,
+          "name": "SUPPLIER PREMIUM",
+          "description": "El proveedor gestiona su log\u00edstica pero genera la gu\u00eda con el sistema de dropi, y no se le cobra comision",
+          "active": true,
+          "created_at": null,
+          "updated_at": "2022-07-05 18:12:09",
+          "auto_manage_delivery": true,
+          "type": "SUPPLIER",
+          "use_fullfillment": false,
+          "dropi_shipping_increment_amount": "1000.00",
+          "dropi_percent_product_supplier": "0.00",
+          "commission_product_supplier": "0.00",
+          "dropi_percent_product_drops": "5.00",
+          "deleted_at": null,
+          "profit_percentage_orders_influencers": "0.00",
+          "white_brand_id": 1,
+          "ignore_dropi_percent_product_supplier": false,
+          "dropi_product_supplier_increment_fixed": false,
+          "wb_comission_amount": null,
+          "wb_pay_comission_to": null,
+          "supplier_commission": null
+        },
+        "category_user": {
+          "id": 1,
+          "created_at": "2024-04-30 07:14:27",
+          "updated_at": null,
+          "name": "PREMIUM",
+          "type": "SUPPLIER",
+          "status": "activo",
+          "icon": "premium",
+          "style": "-",
+          "description": "-",
+          "max_order_quantity": 0,
+          "min_order_quantity": 0,
+          "user_id": 22,
+          "deleted_at": null,
+          "role_id": 3,
+          "reel": true,
+          "swipe": false
+        },
+        "white_brand": {
+          "id": 1
+        }
+      },
+      "variations": [],
+      "gallery": [
+        {
+          "url": "uploads\/images\/products\/328\/WhatsApp Image 2020-10-21 at 2.37.45 PM.jpeg",
+          "main": true,
+          "urlS3": "colombia\/products\/328\/17031032911703103291WhatsApp Image 2020-10-21 at 2.37.45 PM.jpeg"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Hogar",
+          "pivot": {
+            "product_id": 328,
+            "category_id": 1
+          }
+        }
+      ],
+      "private_product_inventories": [],
+      "add_stock_in_return": null,
+      "import_list": [],
+      "warehouse_product": [
+        {
+          "id": 93538,
+          "warehouse_id": 28,
+          "product_id": 328,
+          "created_at": null,
+          "updated_at": "2024-05-30 23:26:11",
+          "stock": 0
+        }
+      ],
+      "dropi_percent_product_supplier": null,
+      "dropi_product_supplier_increment_fixed": false,
+      "dropi_percent_product_drops": null,
+      "external_id": null
+    },
+    {
+      "id": 330,
+      "name": "Colgante de Cuarzo Blanco",
+      "type": "SIMPLE",
+      "sale_price": "8000.00",
+      "suggested_price": "30000.00",
+      "privated_product": false,
+      "sku": "resiblanco",
+      "user": {
+        "id": 115,
+        "subscription_plan_id": 4,
+        "name": "Resiland",
+        "white_brand_id": 1,
+        "category_id": 2,
+        "store_name": "Resiland",
+        "plan": {
+          "id": 4,
+          "name": "SUPPLIER PREMIUM",
+          "description": "El proveedor gestiona su log\u00edstica pero genera la gu\u00eda con el sistema de dropi, y no se le cobra comision",
+          "active": true,
+          "created_at": null,
+          "updated_at": "2022-07-05 18:12:09",
+          "auto_manage_delivery": true,
+          "type": "SUPPLIER",
+          "use_fullfillment": false,
+          "dropi_shipping_increment_amount": "1000.00",
+          "dropi_percent_product_supplier": "0.00",
+          "commission_product_supplier": "0.00",
+          "dropi_percent_product_drops": "5.00",
+          "deleted_at": null,
+          "profit_percentage_orders_influencers": "0.00",
+          "white_brand_id": 1,
+          "ignore_dropi_percent_product_supplier": false,
+          "dropi_product_supplier_increment_fixed": false,
+          "wb_comission_amount": null,
+          "wb_pay_comission_to": null,
+          "supplier_commission": null
+        },
+        "category_user": {
+          "id": 2,
+          "created_at": "2024-04-30 07:15:10",
+          "updated_at": null,
+          "name": "VERIFICADO",
+          "type": "SUPPLIER",
+          "status": "activo",
+          "icon": "verified",
+          "style": "-",
+          "description": "-",
+          "max_order_quantity": 0,
+          "min_order_quantity": 0,
+          "user_id": 22,
+          "deleted_at": null,
+          "role_id": 3,
+          "reel": true,
+          "swipe": false
+        },
+        "white_brand": {
+          "id": 1
+        }
+      },
+      "variations": [],
+      "gallery": [
+        {
+          "url": "uploads\/images\/products\/330\/resiblanco.jpg",
+          "main": true,
+          "urlS3": "colombia\/products\/330\/17031032911703103291resiblanco.jpg"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Bisuter\u00eda",
+          "pivot": {
+            "product_id": 330,
+            "category_id": 1247
+          }
+        }
+      ],
+      "private_product_inventories": [],
+      "add_stock_in_return": null,
+      "import_list": [],
+      "warehouse_product": [
+        {
+          "id": 190201,
+          "warehouse_id": 202,
+          "product_id": 330,
+          "created_at": null,
+          "updated_at": "2024-10-18 13:38:59",
+          "stock": 2473
+        }
+      ],
+      "dropi_percent_product_supplier": null,
+      "dropi_product_supplier_increment_fixed": false,
+      "dropi_percent_product_drops": null,
+      "external_id": null
+    },
+    {
+      "id": 465,
+      "name": "COGEL",
+      "type": "SIMPLE",
+      "sale_price": "36000.00",
+      "suggested_price": "75900.00",
+      "privated_product": false,
+      "sku": "90050000",
+      "user": {
+        "id": 47,
+        "subscription_plan_id": 4,
+        "name": "ADMA",
+        "white_brand_id": 1,
+        "category_id": 1,
+        "store_name": "ADMA",
+        "plan": {
+          "id": 4,
+          "name": "SUPPLIER PREMIUM",
+          "description": "El proveedor gestiona su log\u00edstica pero genera la gu\u00eda con el sistema de dropi, y no se le cobra comision",
+          "active": true,
+          "created_at": null,
+          "updated_at": "2022-07-05 18:12:09",
+          "auto_manage_delivery": true,
+          "type": "SUPPLIER",
+          "use_fullfillment": false,
+          "dropi_shipping_increment_amount": "1000.00",
+          "dropi_percent_product_supplier": "0.00",
+          "commission_product_supplier": "0.00",
+          "dropi_percent_product_drops": "5.00",
+          "deleted_at": null,
+          "profit_percentage_orders_influencers": "0.00",
+          "white_brand_id": 1,
+          "ignore_dropi_percent_product_supplier": false,
+          "dropi_product_supplier_increment_fixed": false,
+          "wb_comission_amount": null,
+          "wb_pay_comission_to": null,
+          "supplier_commission": null
+        },
+        "category_user": {
+          "id": 1,
+          "created_at": "2024-04-30 07:14:27",
+          "updated_at": null,
+          "name": "PREMIUM",
+          "type": "SUPPLIER",
+          "status": "activo",
+          "icon": "premium",
+          "style": "-",
+          "description": "-",
+          "max_order_quantity": 0,
+          "min_order_quantity": 0,
+          "user_id": 22,
+          "deleted_at": null,
+          "role_id": 3,
+          "reel": true,
+          "swipe": false
+        },
+        "white_brand": {
+          "id": 1
+        }
+      },
+      "variations": [],
+      "gallery": [
+        {
+          "url": "uploads\/images\/products\/465\/coj\u00edn-gel-flexible-ortop\u00e9dico-carro-silla-oficina-8043.jpg",
+          "main": true,
+          "urlS3": "colombia\/products\/465\/17031032861703103286coj\u00edn-gel-flexible-ortop\u00e9dico-carro-silla-oficina-8043.jpg"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Belleza",
+          "pivot": {
+            "product_id": 465,
+            "category_id": 7
+          }
+        }
+      ],
+      "private_product_inventories": [],
+      "add_stock_in_return": null,
+      "import_list": [],
+      "warehouse_product": [
+        {
+          "id": 48308,
+          "warehouse_id": 28,
+          "product_id": 465,
+          "created_at": null,
+          "updated_at": "2024-07-04 09:49:44",
+          "stock": 257
+        }
+      ],
+      "dropi_percent_product_supplier": null,
+      "dropi_product_supplier_increment_fixed": false,
+      "dropi_percent_product_drops": null,
+      "external_id": null
+    },
+    {
+      "id": 471,
+      "name": "Orgonita Lluvia de plata",
+      "type": "SIMPLE",
+      "sale_price": "16000.00",
+      "suggested_price": "49000.00",
+      "privated_product": false,
+      "sku": "colganteLluviaPlata",
+      "user": {
+        "id": 115,
+        "subscription_plan_id": 4,
+        "name": "Resiland",
+        "white_brand_id": 1,
+        "category_id": 2,
+        "store_name": "Resiland",
+        "plan": {
+          "id": 4,
+          "name": "SUPPLIER PREMIUM",
+          "description": "El proveedor gestiona su log\u00edstica pero genera la gu\u00eda con el sistema de dropi, y no se le cobra comision",
+          "active": true,
+          "created_at": null,
+          "updated_at": "2022-07-05 18:12:09",
+          "auto_manage_delivery": true,
+          "type": "SUPPLIER",
+          "use_fullfillment": false,
+          "dropi_shipping_increment_amount": "1000.00",
+          "dropi_percent_product_supplier": "0.00",
+          "commission_product_supplier": "0.00",
+          "dropi_percent_product_drops": "5.00",
+          "deleted_at": null,
+          "profit_percentage_orders_influencers": "0.00",
+          "white_brand_id": 1,
+          "ignore_dropi_percent_product_supplier": false,
+          "dropi_product_supplier_increment_fixed": false,
+          "wb_comission_amount": null,
+          "wb_pay_comission_to": null,
+          "supplier_commission": null
+        },
+        "category_user": {
+          "id": 2,
+          "created_at": "2024-04-30 07:15:10",
+          "updated_at": null,
+          "name": "VERIFICADO",
+          "type": "SUPPLIER",
+          "status": "activo",
+          "icon": "verified",
+          "style": "-",
+          "description": "-",
+          "max_order_quantity": 0,
+          "min_order_quantity": 0,
+          "user_id": 22,
+          "deleted_at": null,
+          "role_id": 3,
+          "reel": true,
+          "swipe": false
+        },
+        "white_brand": {
+          "id": 1
+        }
+      },
+      "variations": [],
+      "gallery": [
+        {
+          "url": "uploads\/images\/products\/471\/YSFeSRpWK3Ev5aFuCs6JM9YB4RCgNAGqxaNQ2hhF.png",
+          "main": false,
+          "urlS3": "colombia\/products\/471\/17030219051703021905YSFeSRpWK3Ev5aFuCs6JM9YB4RCgNAGqxaNQ2hhF.png"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Bisuter\u00eda",
+          "pivot": {
+            "product_id": 471,
+            "category_id": 1247
+          }
+        }
+      ],
+      "private_product_inventories": [],
+      "add_stock_in_return": null,
+      "import_list": [],
+      "warehouse_product": [
+        {
+          "id": 190293,
+          "warehouse_id": 202,
+          "product_id": 471,
+          "created_at": null,
+          "updated_at": "2024-06-27 14:20:04",
+          "stock": 96
+        }
+      ],
+      "dropi_percent_product_supplier": null,
+      "dropi_product_supplier_increment_fixed": false,
+      "dropi_percent_product_drops": null,
+      "external_id": null
+    },
+    {
+      "id": 477,
+      "name": "Pulsera 7 chakras",
+      "type": "SIMPLE",
+      "sale_price": "14000.00",
+      "suggested_price": "40000.00",
+      "privated_product": false,
+      "sku": "resipulsera7c",
+      "user": {
+        "id": 115,
+        "subscription_plan_id": 4,
+        "name": "Resiland",
+        "white_brand_id": 1,
+        "category_id": 2,
+        "store_name": "Resiland",
+        "plan": {
+          "id": 4,
+          "name": "SUPPLIER PREMIUM",
+          "description": "El proveedor gestiona su log\u00edstica pero genera la gu\u00eda con el sistema de dropi, y no se le cobra comision",
+          "active": true,
+          "created_at": null,
+          "updated_at": "2022-07-05 18:12:09",
+          "auto_manage_delivery": true,
+          "type": "SUPPLIER",
+          "use_fullfillment": false,
+          "dropi_shipping_increment_amount": "1000.00",
+          "dropi_percent_product_supplier": "0.00",
+          "commission_product_supplier": "0.00",
+          "dropi_percent_product_drops": "5.00",
+          "deleted_at": null,
+          "profit_percentage_orders_influencers": "0.00",
+          "white_brand_id": 1,
+          "ignore_dropi_percent_product_supplier": false,
+          "dropi_product_supplier_increment_fixed": false,
+          "wb_comission_amount": null,
+          "wb_pay_comission_to": null,
+          "supplier_commission": null
+        },
+        "category_user": {
+          "id": 2,
+          "created_at": "2024-04-30 07:15:10",
+          "updated_at": null,
+          "name": "VERIFICADO",
+          "type": "SUPPLIER",
+          "status": "activo",
+          "icon": "verified",
+          "style": "-",
+          "description": "-",
+          "max_order_quantity": 0,
+          "min_order_quantity": 0,
+          "user_id": 22,
+          "deleted_at": null,
+          "role_id": 3,
+          "reel": true,
+          "swipe": false
+        },
+        "white_brand": {
+          "id": 1
+        }
+      },
+      "variations": [],
+      "gallery": [
+        {
+          "url": "uploads\/images\/products\/477\/T27Z9m2z5S3Y6ZXb0zU3SvPzu5BNMVFsUwHoFK6H.png",
+          "main": true,
+          "urlS3": "colombia\/products\/477\/17030219051703021905T27Z9m2z5S3Y6ZXb0zU3SvPzu5BNMVFsUwHoFK6H.png"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Bisuter\u00eda",
+          "pivot": {
+            "product_id": 477,
+            "category_id": 1247
+          }
+        }
+      ],
+      "private_product_inventories": [],
+      "add_stock_in_return": null,
+      "import_list": [],
+      "warehouse_product": [
+        {
+          "id": 190297,
+          "warehouse_id": 202,
+          "product_id": 477,
+          "created_at": null,
+          "updated_at": "2024-10-23 09:21:49",
+          "stock": 1304
+        }
+      ],
+      "dropi_percent_product_supplier": null,
+      "dropi_product_supplier_increment_fixed": false,
+      "dropi_percent_product_drops": null,
+      "external_id": null
+    },
+    {
+      "id": 488,
+      "name": "Collar 7 Chakras",
+      "type": "SIMPLE",
+      "sale_price": "18000.00",
+      "suggested_price": "59900.00",
+      "privated_product": false,
+      "sku": "Collar7chakras",
+      "user": {
+        "id": 115,
+        "subscription_plan_id": 4,
+        "name": "Resiland",
+        "white_brand_id": 1,
+        "category_id": 2,
+        "store_name": "Resiland",
+        "plan": {
+          "id": 4,
+          "name": "SUPPLIER PREMIUM",
+          "description": "El proveedor gestiona su log\u00edstica pero genera la gu\u00eda con el sistema de dropi, y no se le cobra comision",
+          "active": true,
+          "created_at": null,
+          "updated_at": "2022-07-05 18:12:09",
+          "auto_manage_delivery": true,
+          "type": "SUPPLIER",
+          "use_fullfillment": false,
+          "dropi_shipping_increment_amount": "1000.00",
+          "dropi_percent_product_supplier": "0.00",
+          "commission_product_supplier": "0.00",
+          "dropi_percent_product_drops": "5.00",
+          "deleted_at": null,
+          "profit_percentage_orders_influencers": "0.00",
+          "white_brand_id": 1,
+          "ignore_dropi_percent_product_supplier": false,
+          "dropi_product_supplier_increment_fixed": false,
+          "wb_comission_amount": null,
+          "wb_pay_comission_to": null,
+          "supplier_commission": null
+        },
+        "category_user": {
+          "id": 2,
+          "created_at": "2024-04-30 07:15:10",
+          "updated_at": null,
+          "name": "VERIFICADO",
+          "type": "SUPPLIER",
+          "status": "activo",
+          "icon": "verified",
+          "style": "-",
+          "description": "-",
+          "max_order_quantity": 0,
+          "min_order_quantity": 0,
+          "user_id": 22,
+          "deleted_at": null,
+          "role_id": 3,
+          "reel": true,
+          "swipe": false
+        },
+        "white_brand": {
+          "id": 1
+        }
+      },
+      "variations": [],
+      "gallery": [
+        {
+          "url": "uploads\/images\/products\/488\/k6DLTXDU4VrCafTDDaQkrgtYp30LfSVIr5n0fp8W.png",
+          "main": true,
+          "urlS3": "colombia\/products\/488\/17030218991703021899k6DLTXDU4VrCafTDDaQkrgtYp30LfSVIr5n0fp8W.png"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Bisuter\u00eda",
+          "pivot": {
+            "product_id": 488,
+            "category_id": 1247
+          }
+        }
+      ],
+      "private_product_inventories": [],
+      "add_stock_in_return": null,
+      "import_list": [],
+      "warehouse_product": [
+        {
+          "id": 190204,
+          "warehouse_id": 202,
+          "product_id": 488,
+          "created_at": null,
+          "updated_at": "2024-07-15 22:25:34",
+          "stock": 2691
+        }
+      ],
+      "dropi_percent_product_supplier": null,
+      "dropi_product_supplier_increment_fixed": false,
+      "dropi_percent_product_drops": null,
+      "external_id": null
+    },
+    {
+      "id": 494,
+      "name": "REMOVEDOR DE CALLOS",
+      "type": "SIMPLE",
+      "sale_price": "25000.00",
+      "suggested_price": "64900.00",
+      "privated_product": false,
+      "sku": "30680000",
+      "user": {
+        "id": 47,
+        "subscription_plan_id": 4,
+        "name": "ADMA",
+        "white_brand_id": 1,
+        "category_id": 1,
+        "store_name": "ADMA",
+        "plan": {
+          "id": 4,
+          "name": "SUPPLIER PREMIUM",
+          "description": "El proveedor gestiona su log\u00edstica pero genera la gu\u00eda con el sistema de dropi, y no se le cobra comision",
+          "active": true,
+          "created_at": null,
+          "updated_at": "2022-07-05 18:12:09",
+          "auto_manage_delivery": true,
+          "type": "SUPPLIER",
+          "use_fullfillment": false,
+          "dropi_shipping_increment_amount": "1000.00",
+          "dropi_percent_product_supplier": "0.00",
+          "commission_product_supplier": "0.00",
+          "dropi_percent_product_drops": "5.00",
+          "deleted_at": null,
+          "profit_percentage_orders_influencers": "0.00",
+          "white_brand_id": 1,
+          "ignore_dropi_percent_product_supplier": false,
+          "dropi_product_supplier_increment_fixed": false,
+          "wb_comission_amount": null,
+          "wb_pay_comission_to": null,
+          "supplier_commission": null
+        },
+        "category_user": {
+          "id": 1,
+          "created_at": "2024-04-30 07:14:27",
+          "updated_at": null,
+          "name": "PREMIUM",
+          "type": "SUPPLIER",
+          "status": "activo",
+          "icon": "premium",
+          "style": "-",
+          "description": "-",
+          "max_order_quantity": 0,
+          "min_order_quantity": 0,
+          "user_id": 22,
+          "deleted_at": null,
+          "role_id": 3,
+          "reel": true,
+          "swipe": false
+        },
+        "white_brand": {
+          "id": 1
+        }
+      },
+      "variations": [],
+      "gallery": [
+        {
+          "url": "uploads\/images\/products\/494\/lima-electrica-pedi-quita-callos.jpg",
+          "main": true,
+          "urlS3": "colombia\/products\/494\/17031032841703103284lima-electrica-pedi-quita-callos.jpg"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Belleza",
+          "pivot": {
+            "product_id": 494,
+            "category_id": 7
+          }
+        }
+      ],
+      "private_product_inventories": [],
+      "add_stock_in_return": null,
+      "import_list": [],
+      "warehouse_product": [
+        {
+          "id": 61004,
+          "warehouse_id": 28,
+          "product_id": 494,
+          "created_at": null,
+          "updated_at": "2024-10-03 14:57:41",
+          "stock": 95
+        }
+      ],
+      "dropi_percent_product_supplier": null,
+      "dropi_product_supplier_increment_fixed": false,
+      "dropi_percent_product_drops": null,
+      "external_id": null
+    },
+    {
+      "id": 503,
+      "name": "Pulsera Tricolor",
+      "type": "SIMPLE",
+      "sale_price": "8000.00",
+      "suggested_price": "44900.00",
+      "privated_product": false,
+      "sku": "resitricolor",
+      "user": {
+        "id": 115,
+        "subscription_plan_id": 4,
+        "name": "Resiland",
+        "white_brand_id": 1,
+        "category_id": 2,
+        "store_name": "Resiland",
+        "plan": {
+          "id": 4,
+          "name": "SUPPLIER PREMIUM",
+          "description": "El proveedor gestiona su log\u00edstica pero genera la gu\u00eda con el sistema de dropi, y no se le cobra comision",
+          "active": true,
+          "created_at": null,
+          "updated_at": "2022-07-05 18:12:09",
+          "auto_manage_delivery": true,
+          "type": "SUPPLIER",
+          "use_fullfillment": false,
+          "dropi_shipping_increment_amount": "1000.00",
+          "dropi_percent_product_supplier": "0.00",
+          "commission_product_supplier": "0.00",
+          "dropi_percent_product_drops": "5.00",
+          "deleted_at": null,
+          "profit_percentage_orders_influencers": "0.00",
+          "white_brand_id": 1,
+          "ignore_dropi_percent_product_supplier": false,
+          "dropi_product_supplier_increment_fixed": false,
+          "wb_comission_amount": null,
+          "wb_pay_comission_to": null,
+          "supplier_commission": null
+        },
+        "category_user": {
+          "id": 2,
+          "created_at": "2024-04-30 07:15:10",
+          "updated_at": null,
+          "name": "VERIFICADO",
+          "type": "SUPPLIER",
+          "status": "activo",
+          "icon": "verified",
+          "style": "-",
+          "description": "-",
+          "max_order_quantity": 0,
+          "min_order_quantity": 0,
+          "user_id": 22,
+          "deleted_at": null,
+          "role_id": 3,
+          "reel": true,
+          "swipe": false
+        },
+        "white_brand": {
+          "id": 1
+        }
+      },
+      "variations": [],
+      "gallery": [
+        {
+          "url": "uploads\/images\/products\/503\/wieYALArGUtziXvprF0lt3ivHUeFjn5W35GzNC6D.jpeg",
+          "main": true,
+          "urlS3": "colombia\/products\/503\/17031032451703103245wieYALArGUtziXvprF0lt3ivHUeFjn5W35GzNC6D.jpeg"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Bisuter\u00eda",
+          "pivot": {
+            "product_id": 503,
+            "category_id": 1247
+          }
+        }
+      ],
+      "private_product_inventories": [],
+      "add_stock_in_return": null,
+      "import_list": [],
+      "warehouse_product": [
+        {
+          "id": 190314,
+          "warehouse_id": 202,
+          "product_id": 503,
+          "created_at": null,
+          "updated_at": "2024-08-02 20:01:55",
+          "stock": 185
+        }
+      ],
+      "dropi_percent_product_supplier": null,
+      "dropi_product_supplier_increment_fixed": false,
+      "dropi_percent_product_drops": null,
+      "external_id": null
+    },
+    {
+      "id": 570,
+      "name": "Colgante Cuarzo Jaspe Rojo",
+      "type": "SIMPLE",
+      "sale_price": "8000.00",
+      "suggested_price": "35000.00",
+      "privated_product": false,
+      "sku": "resijasperojo",
+      "user": {
+        "id": 115,
+        "subscription_plan_id": 4,
+        "name": "Resiland",
+        "white_brand_id": 1,
+        "category_id": 2,
+        "store_name": "Resiland",
+        "plan": {
+          "id": 4,
+          "name": "SUPPLIER PREMIUM",
+          "description": "El proveedor gestiona su log\u00edstica pero genera la gu\u00eda con el sistema de dropi, y no se le cobra comision",
+          "active": true,
+          "created_at": null,
+          "updated_at": "2022-07-05 18:12:09",
+          "auto_manage_delivery": true,
+          "type": "SUPPLIER",
+          "use_fullfillment": false,
+          "dropi_shipping_increment_amount": "1000.00",
+          "dropi_percent_product_supplier": "0.00",
+          "commission_product_supplier": "0.00",
+          "dropi_percent_product_drops": "5.00",
+          "deleted_at": null,
+          "profit_percentage_orders_influencers": "0.00",
+          "white_brand_id": 1,
+          "ignore_dropi_percent_product_supplier": false,
+          "dropi_product_supplier_increment_fixed": false,
+          "wb_comission_amount": null,
+          "wb_pay_comission_to": null,
+          "supplier_commission": null
+        },
+        "category_user": {
+          "id": 2,
+          "created_at": "2024-04-30 07:15:10",
+          "updated_at": null,
+          "name": "VERIFICADO",
+          "type": "SUPPLIER",
+          "status": "activo",
+          "icon": "verified",
+          "style": "-",
+          "description": "-",
+          "max_order_quantity": 0,
+          "min_order_quantity": 0,
+          "user_id": 22,
+          "deleted_at": null,
+          "role_id": 3,
+          "reel": true,
+          "swipe": false
+        },
+        "white_brand": {
+          "id": 1
+        }
+      },
+      "variations": [],
+      "gallery": [
+        {
+          "url": "uploads\/images\/products\/570\/jaspe-rojo.jpg",
+          "main": true,
+          "urlS3": "colombia\/products\/570\/17031032801703103280jaspe-rojo.jpg"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Bisuter\u00eda",
+          "pivot": {
+            "product_id": 570,
+            "category_id": 1247
+          }
+        }
+      ],
+      "private_product_inventories": [],
+      "add_stock_in_return": null,
+      "import_list": [],
+      "warehouse_product": [
+        {
+          "id": 190197,
+          "warehouse_id": 202,
+          "product_id": 570,
+          "created_at": null,
+          "updated_at": "2024-05-30 23:26:13",
+          "stock": 2193
+        }
+      ],
+      "dropi_percent_product_supplier": null,
+      "dropi_product_supplier_increment_fixed": false,
+      "dropi_percent_product_drops": null,
+      "external_id": null
+    },
+    {
+      "id": 623,
+      "name": "ORGANIZADOR DE ZAPATOS CAJA X 4",
+      "type": "SIMPLE",
+      "sale_price": "47600.00",
+      "suggested_price": "59900.00",
+      "privated_product": false,
+      "sku": "ZAPATOS",
+      "user": {
+        "id": 47,
+        "subscription_plan_id": 4,
+        "name": "ADMA",
+        "white_brand_id": 1,
+        "category_id": 1,
+        "store_name": "ADMA",
+        "plan": {
+          "id": 4,
+          "name": "SUPPLIER PREMIUM",
+          "description": "El proveedor gestiona su log\u00edstica pero genera la gu\u00eda con el sistema de dropi, y no se le cobra comision",
+          "active": true,
+          "created_at": null,
+          "updated_at": "2022-07-05 18:12:09",
+          "auto_manage_delivery": true,
+          "type": "SUPPLIER",
+          "use_fullfillment": false,
+          "dropi_shipping_increment_amount": "1000.00",
+          "dropi_percent_product_supplier": "0.00",
+          "commission_product_supplier": "0.00",
+          "dropi_percent_product_drops": "5.00",
+          "deleted_at": null,
+          "profit_percentage_orders_influencers": "0.00",
+          "white_brand_id": 1,
+          "ignore_dropi_percent_product_supplier": false,
+          "dropi_product_supplier_increment_fixed": false,
+          "wb_comission_amount": null,
+          "wb_pay_comission_to": null,
+          "supplier_commission": null
+        },
+        "category_user": {
+          "id": 1,
+          "created_at": "2024-04-30 07:14:27",
+          "updated_at": null,
+          "name": "PREMIUM",
+          "type": "SUPPLIER",
+          "status": "activo",
+          "icon": "premium",
+          "style": "-",
+          "description": "-",
+          "max_order_quantity": 0,
+          "min_order_quantity": 0,
+          "user_id": 22,
+          "deleted_at": null,
+          "role_id": 3,
+          "reel": true,
+          "swipe": false
+        },
+        "white_brand": {
+          "id": 1
+        }
+      },
+      "variations": [],
+      "gallery": [
+        {
+          "url": "uploads\/images\/products\/623\/organizador de zapatos.jpg",
+          "main": true,
+          "urlS3": "colombia\/products\/623\/17031032781703103278organizador de zapatos.jpg"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Belleza",
+          "pivot": {
+            "product_id": 623,
+            "category_id": 7
+          }
+        }
+      ],
+      "private_product_inventories": [],
+      "add_stock_in_return": null,
+      "import_list": [],
+      "warehouse_product": [
+        {
+          "id": 19607,
+          "warehouse_id": 28,
+          "product_id": 623,
+          "created_at": null,
+          "updated_at": "2024-05-30 23:26:13",
+          "stock": 49
+        }
+      ],
+      "dropi_percent_product_supplier": null,
+      "dropi_product_supplier_increment_fixed": false,
+      "dropi_percent_product_drops": null,
+      "external_id": null
+    },
+    {
+      "id": 628,
+      "name": "Organizador de bolsos",
+      "type": "SIMPLE",
+      "sale_price": "31000.00",
+      "suggested_price": "60000.00",
+      "privated_product": false,
+      "sku": "organizadorbolso1",
+      "user": {
+        "id": 214,
+        "subscription_plan_id": 4,
+        "name": "Hunter",
+        "white_brand_id": 1,
+        "category_id": null,
+        "store_name": null,
+        "plan": {
+          "id": 4,
+          "name": "SUPPLIER PREMIUM",
+          "description": "El proveedor gestiona su log\u00edstica pero genera la gu\u00eda con el sistema de dropi, y no se le cobra comision",
+          "active": true,
+          "created_at": null,
+          "updated_at": "2022-07-05 18:12:09",
+          "auto_manage_delivery": true,
+          "type": "SUPPLIER",
+          "use_fullfillment": false,
+          "dropi_shipping_increment_amount": "1000.00",
+          "dropi_percent_product_supplier": "0.00",
+          "commission_product_supplier": "0.00",
+          "dropi_percent_product_drops": "5.00",
+          "deleted_at": null,
+          "profit_percentage_orders_influencers": "0.00",
+          "white_brand_id": 1,
+          "ignore_dropi_percent_product_supplier": false,
+          "dropi_product_supplier_increment_fixed": false,
+          "wb_comission_amount": null,
+          "wb_pay_comission_to": null,
+          "supplier_commission": null
+        },
+        "category_user": null,
+        "white_brand": {
+          "id": 1
+        }
+      },
+      "variations": [],
+      "gallery": [
+        {
+          "url": "uploads\/images\/products\/628\/togwBQbLg00xcGQMDrln80hmBRwqOl8VPpBErjv4.jpeg",
+          "main": true,
+          "urlS3": "colombia\/products\/628\/17031015691703101569togwBQbLg00xcGQMDrln80hmBRwqOl8VPpBErjv4.jpeg"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Moda",
+          "pivot": {
+            "product_id": 628,
+            "category_id": 3
+          }
+        }
+      ],
+      "private_product_inventories": [
+        {
+          "id": null,
+          "product_id": 628,
+          "variation_id": null,
+          "variation": null,
+          "user_id": 10,
+          "stock": "49.00",
+          "last_quantity_separed": "49.00",
+          "user": {
+            "id": 10,
+            "name": "Shopi Pauta"
+          },
+          "created_at": null,
+          "updated_at": null
+        }
+      ],
+      "add_stock_in_return": null,
+      "import_list": [],
+      "warehouse_product": [
+        {
+          "id": 116188,
+          "warehouse_id": 12,
+          "product_id": 628,
+          "created_at": null,
+          "updated_at": "2024-05-30 23:26:13",
+          "stock": 932
+        }
+      ],
+      "dropi_percent_product_supplier": null,
+      "dropi_product_supplier_increment_fixed": false,
+      "dropi_percent_product_drops": null,
+      "external_id": null
+    },
+    {
+      "id": 695,
+      "name": "DESENGRASANTE MULTIPROPOSITO 2 litros ES",
+      "type": "SIMPLE",
+      "sale_price": "26000.00",
+      "suggested_price": "36000.00",
+      "privated_product": false,
+      "sku": "80",
+      "user": {
+        "id": 236,
+        "subscription_plan_id": 4,
+        "name": "Luviter",
+        "white_brand_id": 1,
+        "category_id": null,
+        "store_name": null,
+        "plan": {
+          "id": 4,
+          "name": "SUPPLIER PREMIUM",
+          "description": "El proveedor gestiona su log\u00edstica pero genera la gu\u00eda con el sistema de dropi, y no se le cobra comision",
+          "active": true,
+          "created_at": null,
+          "updated_at": "2022-07-05 18:12:09",
+          "auto_manage_delivery": true,
+          "type": "SUPPLIER",
+          "use_fullfillment": false,
+          "dropi_shipping_increment_amount": "1000.00",
+          "dropi_percent_product_supplier": "0.00",
+          "commission_product_supplier": "0.00",
+          "dropi_percent_product_drops": "5.00",
+          "deleted_at": null,
+          "profit_percentage_orders_influencers": "0.00",
+          "white_brand_id": 1,
+          "ignore_dropi_percent_product_supplier": false,
+          "dropi_product_supplier_increment_fixed": false,
+          "wb_comission_amount": null,
+          "wb_pay_comission_to": null,
+          "supplier_commission": null
+        },
+        "category_user": null,
+        "white_brand": {
+          "id": 1
+        }
+      },
+      "variations": [],
+      "gallery": [
+        {
+          "url": "uploads\/images\/products\/695\/DESENGRASANTE.PNG",
+          "main": true,
+          "urlS3": "colombia\/products\/695\/17031032751703103275DESENGRASANTE.PNG"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Hogar",
+          "pivot": {
+            "product_id": 695,
+            "category_id": 1
+          }
+        }
+      ],
+      "private_product_inventories": [],
+      "add_stock_in_return": null,
+      "import_list": [],
+      "warehouse_product": [
+        {
+          "id": 141598,
+          "warehouse_id": 87,
+          "product_id": 695,
+          "created_at": null,
+          "updated_at": "2024-05-30 23:26:14",
+          "stock": 77
+        }
+      ],
+      "dropi_percent_product_supplier": null,
+      "dropi_product_supplier_increment_fixed": false,
+      "dropi_percent_product_drops": null,
+      "external_id": null
+    },
+    {
+      "id": 696,
+      "name": "DESINFECTANTE MULTIUSOS ESSENTIAL 2L",
+      "type": "SIMPLE",
+      "sale_price": "25200.00",
+      "suggested_price": "36000.00",
+      "privated_product": false,
+      "sku": "50",
+      "user": {
+        "id": 236,
+        "subscription_plan_id": 4,
+        "name": "Luviter",
+        "white_brand_id": 1,
+        "category_id": null,
+        "store_name": null,
+        "plan": {
+          "id": 4,
+          "name": "SUPPLIER PREMIUM",
+          "description": "El proveedor gestiona su log\u00edstica pero genera la gu\u00eda con el sistema de dropi, y no se le cobra comision",
+          "active": true,
+          "created_at": null,
+          "updated_at": "2022-07-05 18:12:09",
+          "auto_manage_delivery": true,
+          "type": "SUPPLIER",
+          "use_fullfillment": false,
+          "dropi_shipping_increment_amount": "1000.00",
+          "dropi_percent_product_supplier": "0.00",
+          "commission_product_supplier": "0.00",
+          "dropi_percent_product_drops": "5.00",
+          "deleted_at": null,
+          "profit_percentage_orders_influencers": "0.00",
+          "white_brand_id": 1,
+          "ignore_dropi_percent_product_supplier": false,
+          "dropi_product_supplier_increment_fixed": false,
+          "wb_comission_amount": null,
+          "wb_pay_comission_to": null,
+          "supplier_commission": null
+        },
+        "category_user": null,
+        "white_brand": {
+          "id": 1
+        }
+      },
+      "variations": [],
+      "gallery": [
+        {
+          "url": "uploads\/images\/products\/696\/DESINFECTANTE.PNG",
+          "main": true,
+          "urlS3": "colombia\/products\/696\/17031032741703103274DESINFECTANTE.PNG"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Hogar",
+          "pivot": {
+            "product_id": 696,
+            "category_id": 1
+          }
+        }
+      ],
+      "private_product_inventories": [],
+      "add_stock_in_return": null,
+      "import_list": [],
+      "warehouse_product": [
+        {
+          "id": 143704,
+          "warehouse_id": 87,
+          "product_id": 696,
+          "created_at": null,
+          "updated_at": "2024-05-30 23:26:14",
+          "stock": 62
+        }
+      ],
+      "dropi_percent_product_supplier": null,
+      "dropi_product_supplier_increment_fixed": false,
+      "dropi_percent_product_drops": null,
+      "external_id": null
+    },
+    {
+      "id": 697,
+      "name": "DESMANCHADOR DE JUNTAS ESSENTIAL",
+      "type": "SIMPLE",
+      "sale_price": "23200.00",
+      "suggested_price": "40000.00",
+      "privated_product": false,
+      "sku": "50",
+      "user": {
+        "id": 236,
+        "subscription_plan_id": 4,
+        "name": "Luviter",
+        "white_brand_id": 1,
+        "category_id": null,
+        "store_name": null,
+        "plan": {
+          "id": 4,
+          "name": "SUPPLIER PREMIUM",
+          "description": "El proveedor gestiona su log\u00edstica pero genera la gu\u00eda con el sistema de dropi, y no se le cobra comision",
+          "active": true,
+          "created_at": null,
+          "updated_at": "2022-07-05 18:12:09",
+          "auto_manage_delivery": true,
+          "type": "SUPPLIER",
+          "use_fullfillment": false,
+          "dropi_shipping_increment_amount": "1000.00",
+          "dropi_percent_product_supplier": "0.00",
+          "commission_product_supplier": "0.00",
+          "dropi_percent_product_drops": "5.00",
+          "deleted_at": null,
+          "profit_percentage_orders_influencers": "0.00",
+          "white_brand_id": 1,
+          "ignore_dropi_percent_product_supplier": false,
+          "dropi_product_supplier_increment_fixed": false,
+          "wb_comission_amount": null,
+          "wb_pay_comission_to": null,
+          "supplier_commission": null
+        },
+        "category_user": null,
+        "white_brand": {
+          "id": 1
+        }
+      },
+      "variations": [],
+      "gallery": [
+        {
+          "url": "uploads\/images\/products\/697\/DESMANCHADOR.PNG",
+          "main": true,
+          "urlS3": "colombia\/products\/697\/17031032741703103274DESMANCHADOR.PNG"
+        }
+      ],
+      "categories": [
+        {
+          "name": "Hogar",
+          "pivot": {
+            "product_id": 697,
+            "category_id": 1
+          }
+        }
+      ],
+      "private_product_inventories": [],
+      "add_stock_in_return": null,
+      "import_list": [],
+      "warehouse_product": [
+        {
+          "id": 29994,
+          "warehouse_id": 87,
+          "product_id": 697,
+          "created_at": null,
+          "updated_at": "2024-05-30 23:26:14",
+          "stock": 39
+        }
+      ],
+      "dropi_percent_product_supplier": null,
+      "dropi_product_supplier_increment_fixed": false,
+      "dropi_percent_product_drops": null,
+      "external_id": null
+    }
+  ],
+  "count": 151562
+}

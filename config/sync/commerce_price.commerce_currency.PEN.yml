@@ -1,0 +1,9 @@
+uuid: 1ed89e51-31a8-4d84-a7e5-c9040a453410
+langcode: es
+status: true
+dependencies: {  }
+currencyCode: PEN
+name: 'Sol Peruano'
+numericCode: '604'
+symbol: PEN
+fractionDigits: 2

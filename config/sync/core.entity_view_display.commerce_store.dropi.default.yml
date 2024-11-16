@@ -1,0 +1,40 @@
+uuid: ecee4391-14be-4fed-a3af-19dd38c2c28a
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_store.commerce_store_type.dropi
+    - field.field.commerce_store.dropi.field_country
+  module:
+    - options
+id: commerce_store.dropi.default
+targetEntityType: commerce_store
+bundle: dropi
+mode: default
+content:
+  field_country:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+hidden:
+  address: true
+  billing_countries: true
+  created: true
+  default_currency: true
+  epayco_api_private_key: true
+  epayco_api_public_key: true
+  epayco_client_id: true
+  epayco_key: true
+  epayco_language: true
+  epayco_mode: true
+  is_default: true
+  langcode: true
+  mail: true
+  name: true
+  prices_include_tax: true
+  tax_registrations: true
+  timezone: true
+  uid: true

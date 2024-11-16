@@ -1,0 +1,23 @@
+uuid: 0d4c8eba-a1b1-40d2-8e0c-2c01dd8966d5
+langcode: es
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - kart
+_core:
+  default_config_hash: tbgj8InEL7STnYWOisTsELcL2j6N5CvoyldiAcaeoLU
+id: kart_search_form_wide
+theme: kart
+region: search_box
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulario de búsqueda (ancho)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

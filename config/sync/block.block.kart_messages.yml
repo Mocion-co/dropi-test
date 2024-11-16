@@ -1,0 +1,22 @@
+uuid: 6d7996c9-31d5-4c31-bcd4-90049fc598b0
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kart
+_core:
+  default_config_hash: Slek_yN3t0frsKrPghQ2uRCm12HACXzypVklGkDKBaw
+id: kart_messages
+theme: kart
+region: highlighted
+weight: -15
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensajes de estado'
+  label_display: '0'
+  provider: system
+visibility: {  }

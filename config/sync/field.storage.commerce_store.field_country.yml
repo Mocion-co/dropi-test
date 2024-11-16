@@ -1,0 +1,45 @@
+uuid: 5582462f-a87c-42b9-a922-002a327af60c
+langcode: es
+status: true
+dependencies:
+  module:
+    - commerce_store
+    - options
+id: commerce_store.field_country
+field_name: field_country
+entity_type: commerce_store
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: CL
+      label: Chile
+    -
+      value: CO
+      label: Colombia
+    -
+      value: EC
+      label: Ecuador
+    -
+      value: ES
+      label: España
+    -
+      value: MX
+      label: México
+    -
+      value: PA
+      label: Panamá
+    -
+      value: PE
+      label: Perú
+    -
+      value: PY
+      label: Paraguay
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

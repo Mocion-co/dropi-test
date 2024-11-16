@@ -1,0 +1,15 @@
+dropi.settings:
+  path: '/admin/config/services/dropi'
+  defaults:
+    _form: '\Drupal\dropi\Form\DropiSettingsForm'
+    _title: 'Dropi Settings'
+  requirements:
+    _permission: 'administer site configuration'
+
+dropi.display:
+  path: '/dropi-data'
+  defaults:
+    _controller: '\Drupal\dropi\Controller\DropiController::display'
+    _title: 'Dropi Data'
+  requirements:
+    _permission: 'access content'

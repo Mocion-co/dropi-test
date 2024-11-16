@@ -1,0 +1,13 @@
+name: Dropi
+type: module
+description: 'Consumes a third-party API service'
+core_version_requirement: ^9 || ^10
+package: Custom
+dependencies:
+  - commerce
+  - commerce_cart
+  - commerce_checkout
+  - commerce_order
+  - commerce_price
+  - commerce_product
+  - commerce_store

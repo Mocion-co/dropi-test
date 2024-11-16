@@ -1,0 +1,189 @@
+<?php
+
+/**
+ * Implements hook_install().
+ */
+function dropi_install() {
+
+  /** @var \Drupal\Core\Entity\EntityTypeManager $entityTypeManager */
+  $entityTypeManager = \Drupal::service('entity_type.manager');
+
+  /** @var \Drupal\commerce_price\Entity\CurrencyInterface $currencyStorage */
+  $currencyStorage = $entityTypeManager->getStorage('commerce_currency');
+
+  $currencies = [
+    'USD' => [
+      'name' => 'Dólar Estadounidense',
+      'fractionDigits' => 2,
+      'numericCode' => '840',
+      'currencyCode' => 'USD',
+      'symbol' => 'US$',
+      'originalId' => 'USD',
+    ],
+    'PAB' => [
+      'name' => 'Balboa Panameño',
+      'fractionDigits' => 2,
+      'numericCode' => '590',
+      'currencyCode' => 'PAB',
+      'symbol' => 'PAB',
+      'originalId' => 'PAB',
+    ],
+    'CLP' => [
+      'name' => 'Peso Chileno',
+      'fractionDigits' => 0,
+      'numericCode' => '152',
+      'currencyCode' => 'CLP',
+      'symbol' => 'CLP',
+      'originalId' => 'CLP',
+    ],
+    'COP' => [
+      'name' => 'Peso Colombiano',
+      'fractionDigits' => 2,
+      'numericCode' => '170',
+      'currencyCode' => 'COP',
+      'symbol' => 'COP',
+      'originalId' => 'COP',
+    ],
+    'MXN' => [
+      'name' => 'Peso Mexicano',
+      'fractionDigits' => 2,
+      'numericCode' => '484',
+      'currencyCode' => 'MXN',
+      'symbol' => 'MXN',
+      'originalId' => 'MXN',
+    ],
+    'PEN' => [
+      'name' => 'Sol Peruano',
+      'fractionDigits' => 2,
+      'numericCode' => '604',
+      'currencyCode' => 'PEN',
+      'symbol' => 'PEN',
+      'originalId' => 'PEN',
+    ],
+    'EUR' => [
+      'name' => 'Euro',
+      'fractionDigits' => 2,
+      'numericCode' => '978',
+      'currencyCode' => 'EUR',
+      'symbol' => '€',
+      'originalId' => 'EUR',
+    ],
+    'PYG' => [
+      'name' => 'Guaraní Paraguayo',
+      'fractionDigits' => 0,
+      'numericCode' => '600',
+      'currencyCode' => 'PYG',
+      'symbol' => 'PYG',
+      'originalId' => 'PYG',
+    ],
+  ];
+
+  foreach ($currencies as $key => $value) {
+    /** @var \Drupal\commerce_price\Entity\Currency $currency */
+    $currency = $currencyStorage->load($key);
+
+    if (is_null($currency)) {
+      $currency = $currencyStorage->create($value);
+      $currency->save();
+    }
+  }
+
+  /** @var \Drupal\commerce_store\Entity\StoreTypeInterface $storeTypeStorege */
+  $storeTypeStorege = $entityTypeManager->getStorage('commerce_store_type');
+
+  /** @var \Drupal\commerce_store\Entity\StoreType $storeType */
+  $storeType = $storeTypeStorege->load('dropi');
+
+  if (is_null($storeType)) {
+    $storeType = $storeTypeStorege->create([
+      'id' => 'dropi',
+      'label' => 'Dropi',
+      'description' => 'empty',
+    ]);
+    $storeType->save();
+  }
+
+  // Something fails on store type creation.
+  if (is_null($storeType)) {
+    return;
+  }
+
+  /** @var \Drupal\field\FieldStorageConfigInterface $fieldStorageConfig */
+  $fieldStorageConfig = $entityTypeManager->getStorage('field_storage_config');
+
+  /** @var \Drupal\field\FieldStorageConfig $fieldStorage */
+  $fieldStorage = $fieldStorageConfig->load('commerce_store.field_country');
+
+  if (is_null($fieldStorage)) {
+    $fieldStorage = $fieldStorageConfig->create([
+      'field_name' => 'field_country',
+      'entity_type' => 'commerce_store',
+      'type' => 'list_string',
+      'settings' => [
+        'allowed_values' => [
+          'CL' => t('Chile'),
+          'CO' => t('Colombia'),
+          'EC' => t('Ecuador'),
+          'ES' => t('España'),
+          'MX' => t('Mexico'),
+          'PA' => t('Panama'),
+          'PE' => t('Perú'),
+          'PY' => t('Paraguay'),
+        ],
+      ],
+      'cardinality' => 1,
+    ]);
+    $fieldStorage->save();
+  }
+
+  // Something fails on field storage creation.
+  if (is_null($fieldStorage)) {
+    return;
+  }
+
+  /** @var \Drupal\field\FieldConfigInterface $fieldConfig */
+  $fieldConfig = $entityTypeManager->getStorage('field_config');
+
+  /** @var \Drupal\field\Entity\FieldConfig $field */
+  $field = $fieldConfig->load('commerce_store.dropi.field_country');
+
+  if(is_null($field)) {
+    // Create field configuration
+    $field = $fieldConfig->create([
+      'field_storage' => $fieldStorage,
+      'bundle' => 'dropi',
+      'label' => t('Country'),
+      'required' => TRUE,
+      'settings' => [
+        'handler' => 'default:commerce_store',
+      ],
+    ]);
+    $field->save();
+  }
+
+  // Something fails on field creation.
+  if (is_null($field)) {
+    return;
+  }
+
+  /** @var \Drupal\Core\Entity\EntityDisplayRepositoryInterface $entityDisplayRepository */
+  $entityDisplayRepository = \Drupal::service('entity_display.repository');
+
+  /** @var \Drupal\Core\Entity\Display\EntityFormDisplayInterface $formDisplay */
+  $formDisplay = $entityDisplayRepository->getFormDisplay('commerce_store', 'dropi', 'default');
+
+  $formDisplay->setComponent('field_country', [
+    'type' => 'options_select', // or 'options_buttons' for radio/checkbox
+    'weight' => 10,
+  ])->save();
+
+  /** @var \Drupal\Core\Entity\Display\EntityViewDisplayInterface $viewDisplay */
+  $viewDisplay = $entityDisplayRepository->getViewDisplay('commerce_store', 'dropi', 'default');
+
+  $viewDisplay->setComponent('field_country', [
+    'type' => 'list_default',
+    'label' => 'above',
+    'weight' => 10,
+  ])->save();
+
+}
