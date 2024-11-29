@@ -48,6 +48,8 @@ RUN docker-php-ext-enable tidy
 
 # COPY app config web .env /app//
 
+RUN git config --global --add safe.directory /app
+
 EXPOSE 80
 
 # COPY ./docker/entrypoint.sh /entrypoint.d/apptega.sh
