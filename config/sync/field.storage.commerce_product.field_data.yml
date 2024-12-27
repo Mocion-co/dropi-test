@@ -1,0 +1,19 @@
+uuid: de515d0c-519d-4d4c-a485-be9955b0d831
+langcode: es
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - json_field
+id: commerce_product.field_data
+field_name: field_data
+entity_type: commerce_product
+type: json_native
+settings: {  }
+module: json_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

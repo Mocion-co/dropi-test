@@ -1,0 +1,7 @@
+uuid: 950b6ab4-35a5-43f2-87c2-81b34b1df667
+langcode: es
+status: true
+dependencies: {  }
+id: size
+label: Tamano
+elementType: select

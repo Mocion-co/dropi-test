@@ -7,6 +7,7 @@ use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Logger\LoggerChannelFactoryInterface;
 use GuzzleHttp\ClientInterface;
+use Symfony\Component\Serializer\Encoder\JsonEncode;
 
 /**
  *
@@ -174,6 +175,7 @@ class DropiService {
         'status' => TRUE,
         'created' => $created,
         'changed' => $created,
+        'field_data' => json_encode($data),
       ]);
       $variation->save();
       $variations[] = $variation;

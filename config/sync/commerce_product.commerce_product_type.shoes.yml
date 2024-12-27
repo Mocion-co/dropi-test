@@ -1,0 +1,14 @@
+uuid: 8978e819-5639-4715-b38c-2beaa9178548
+langcode: es
+status: true
+dependencies: {  }
+id: shoes
+label: Calzado
+traits: {  }
+locked: false
+description: ''
+variationType: null
+variationTypes:
+  - calzado
+multipleVariations: true
+injectVariationFields: true

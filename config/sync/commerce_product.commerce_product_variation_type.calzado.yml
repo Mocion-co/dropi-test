@@ -1,0 +1,10 @@
+uuid: f7cfba51-aadc-4185-9d16-541f7d2499d5
+langcode: es
+status: true
+dependencies: {  }
+id: calzado
+label: Calzado
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: false

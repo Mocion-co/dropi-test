@@ -1,0 +1,11 @@
+uuid: fc3f55ce-742c-4f11-b59a-7b9fae66f49a
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.shoes
+id: commerce_product.shoes
+target_entity_type_id: commerce_product
+target_bundle: shoes
+default_langcode: site_default
+language_alterable: false

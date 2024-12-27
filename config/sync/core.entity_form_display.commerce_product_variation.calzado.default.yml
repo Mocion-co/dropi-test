@@ -1,18 +1,16 @@
-uuid: 6c952609-8202-4294-b63f-30e9ec9b6d34
-langcode: en
+uuid: 20cd9fc1-42a5-41f1-9c6d-f2cc407a37e5
+langcode: es
 status: true
 dependencies:
   config:
-    - commerce_product.commerce_product_variation_type.default
-    - field.field.commerce_product_variation.default.attribute_color
-    - field.field.commerce_product_variation.default.attribute_size
+    - commerce_product.commerce_product_variation_type.calzado
+    - field.field.commerce_product_variation.calzado.attribute_color
+    - field.field.commerce_product_variation.calzado.attribute_size
   module:
     - commerce_price
-_core:
-  default_config_hash: dDLA40Axom_QFA79EWUpe_bWXWE8I_7MijzPkslbVfA
-id: commerce_product_variation.default.default
+id: commerce_product_variation.calzado.default
 targetEntityType: commerce_product_variation
-bundle: default
+bundle: calzado
 mode: default
 content:
   attribute_color:
@@ -56,10 +54,18 @@ content:
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 10
+    weight: 90
     region: content
     settings:
       display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
 hidden:
   created: true

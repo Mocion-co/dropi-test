@@ -26,6 +26,7 @@
         "drupal/epayco": "^2.0",
         "drupal/gin": "^3.0@RC",
         "drupal/gin_toolbar": "^1.0@RC",
+        "drupal/json_field": "^1.4",
         "drupal/kart": "^1.0",
         "drupal/recaptcha": "^3.4",
         "drush/drush": "^13.3",

@@ -1,0 +1,11 @@
+uuid: 2a8ff99e-3d89-40bb-bd0d-08c60f660e35
+langcode: es
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.calzado
+id: commerce_product_variation.calzado
+target_entity_type_id: commerce_product_variation
+target_bundle: calzado
+default_langcode: site_default
+language_alterable: false
