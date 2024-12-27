@@ -1,0 +1,58 @@
+/* Variables CSS con la paleta de colores */
+:root {
+  --color-primary: #284869;    /* Azul oscuro */
+  --color-secondary: #498183;  /* Verde azulado */
+  --color-accent: #93c59d;     /* Verde claro */
+  --color-light: #f6fdd1;      /* Crema */
+  --color-neutral: #93aa94;    /* Verde grisáceo */
+}
+
+/* Estilos base */
+body {
+  background-color: var(--color-light);
+  color: var(--color-primary);
+}
+
+/* Header */
+.region-header {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+/* Menú principal */
+.region-primary-menu {
+  background-color: var(--color-secondary);
+}
+
+.region-primary-menu a {
+  color: white;
+}
+
+/* Enlaces */
+a {
+  color: var(--color-secondary);
+}
+
+a:hover {
+  color: var(--color-primary);
+}
+
+/* Botones */
+.button {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+/* Footer */
+.region-footer {
+  background-color: var(--color-neutral);
+  color: white;
+}

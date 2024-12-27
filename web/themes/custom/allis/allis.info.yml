@@ -1,0 +1,20 @@
+name: Allis
+type: theme
+description: 'Es un tema moderno y adaptable para hostales, con colores relajantes y un diseño optimizado para móviles y escritorio, destacando una sección de reservas y listados de habitaciones.'
+core_version_requirement: ^10
+base theme: stable9
+libraries:
+  - allis/global-styling
+  - allis/global-scripts
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  featured: 'Featured'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'

@@ -1,0 +1,24 @@
+uuid: 3d2b553d-8038-4442-b312-4479e07f4135
+langcode: es
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - allis
+_core:
+  default_config_hash: HUWV788R5zWFzgV76-IQ8wZh_GWQQyqs5tMH-Rl_pKI
+id: allis_cart
+theme: allis
+region: header
+weight: -8
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: 'Cesta de la compra'
+  label_display: '0'
+  provider: commerce_cart
+  dropdown: true
+  show_if_empty: true
+visibility: {  }

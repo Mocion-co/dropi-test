@@ -1,0 +1,22 @@
+uuid: 8cf12f88-6aac-467d-95c8-66c286a3847e
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - allis
+_core:
+  default_config_hash: Slek_yN3t0frsKrPghQ2uRCm12HACXzypVklGkDKBaw
+id: allis_messages
+theme: allis
+region: header
+weight: -15
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensajes de estado'
+  label_display: '0'
+  provider: system
+visibility: {  }

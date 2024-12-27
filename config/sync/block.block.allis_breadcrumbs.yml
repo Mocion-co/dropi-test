@@ -1,0 +1,22 @@
+uuid: 5f83645d-26f9-46a1-9478-8347984d8b01
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - allis
+_core:
+  default_config_hash: v3ZiUY0Uoig8LMdG6l1KNwFZpC-DRvf5ZjBdZ5HdhUQ
+id: allis_breadcrumbs
+theme: allis
+region: header
+weight: -12
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Enlaces de ayuda a la navegación'
+  label_display: '0'
+  provider: system
+visibility: {  }
