@@ -1,0 +1,22 @@
+uuid: 7f5fe57d-309c-4e11-bb04-f63061eccb8d
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - allis
+_core:
+  default_config_hash: n8E6mVfIorSDGn8ezlEyuheiYCe3fRhsHO1YEHbUkUk
+id: allis_help
+theme: allis
+region: header
+weight: -14
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ayuda
+  label_display: '0'
+  provider: help
+visibility: {  }

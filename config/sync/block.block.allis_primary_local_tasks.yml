@@ -1,0 +1,22 @@
+uuid: 008c7608-8a7b-4b11-86df-9002ff96e22d
+langcode: es
+status: true
+dependencies:
+  theme:
+    - allis
+_core:
+  default_config_hash: v8eTSlYf9MlVC3YMD3jis6kP9d_enWDx5i76K09PvP0
+id: allis_primary_local_tasks
+theme: allis
+region: content
+weight: -14
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Solapas principales'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

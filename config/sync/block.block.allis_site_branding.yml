@@ -1,0 +1,25 @@
+uuid: 8dd8807a-3df2-4a16-8baf-8dfad5822cb9
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - allis
+_core:
+  default_config_hash: 7k-gScj6PtYDm9PeI6oKk01F5keBnq1xoh2xS5OvaaI
+id: allis_site_branding
+theme: allis
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Marca del sitio'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

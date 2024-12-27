@@ -1,0 +1,27 @@
+uuid: a8f50f66-429e-456e-8df0-68070663120a
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - allis
+_core:
+  default_config_hash: toXYgPwgS_fPoO1quWVh_qVGISUdlgJlxKm10e91CPg
+id: allis_main_menu
+theme: allis
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navegación principal'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 5
+  expand_all_items: true
+visibility: {  }

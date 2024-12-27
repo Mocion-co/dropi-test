@@ -1,0 +1,20 @@
+uuid: 8daabdcd-9c78-41e0-8414-03df4570d5c3
+langcode: es
+status: true
+dependencies:
+  theme:
+    - allis
+_core:
+  default_config_hash: 8ZF0x9jM4poipRW4RLq3_YTmJdJSC_cNgS6KY4ETmv8
+id: allis_page_title
+theme: allis
+region: header
+weight: -11
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título de la página'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 4b1c8217-0589-433c-8a5a-221fdc31c856
+langcode: es
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - allis
+_core:
+  default_config_hash: BnFs8x--6Pa9dm-X-VDXPQFjC21l_DD7gRjSzf17xLs
+id: allis_search_form_narrow
+theme: allis
+region: header
+weight: -14
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulario de búsqueda (estrecho)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

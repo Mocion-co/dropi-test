@@ -1,0 +1,22 @@
+uuid: 4969f720-b339-458e-92fc-7b9771d43d6c
+langcode: es
+status: true
+dependencies:
+  theme:
+    - allis
+_core:
+  default_config_hash: m2AJO46zL_Q8R8XF52kSj6zr_rB0aA4Uak-XuwWKI7M
+id: allis_secondary_local_tasks
+theme: allis
+region: content
+weight: -12
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Solapas secundarias'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

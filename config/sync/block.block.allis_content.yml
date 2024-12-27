@@ -1,0 +1,22 @@
+uuid: a170a830-cdca-470a-84c1-a2e2fd457e15
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - allis
+_core:
+  default_config_hash: It1dYBpENqvVxeYG-4EvxSWDS8WwhQ-Il0DxQYRahxs
+id: allis_content
+theme: allis
+region: content
+weight: -11
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenido principal de la página'
+  label_display: '0'
+  provider: system
+visibility: {  }
