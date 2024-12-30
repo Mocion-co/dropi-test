@@ -175,7 +175,6 @@ class DropiService {
         'status' => TRUE,
         'created' => $created,
         'changed' => $created,
-        'field_data' => json_encode($data),
       ]);
       $variation->save();
       $variations[] = $variation;
@@ -210,6 +209,7 @@ class DropiService {
       ],
       'created' => $created,
       'variations' => $variations,
+      'field_data' => json_encode($data),
     ]);
     $product->save();
   }
