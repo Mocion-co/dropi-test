@@ -3,6 +3,7 @@ type: module
 description: 'Consumes a third-party API service'
 core_version_requirement: ^9 || ^10
 package: Custom
+version: '1.0.0'
 dependencies:
   - commerce
   - commerce_cart

@@ -1,0 +1,13 @@
+{# dropi/templates/dropi-product-list.html.twig #}
+<h3>TEST</h3>
+<div class="product-list">
+  {% for product in products %}
+    <div class="product-item">
+      <h3>{{ product.name }}</h3>
+      <p>{{ product.short_description }}</p>
+      <button class="product-details-button" data-product-id="{{ product.id }}">
+        {{ 'More Details'|t }}
+      </button>
+    </div>
+  {% endfor %}
+</div>

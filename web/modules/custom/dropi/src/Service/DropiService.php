@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\dropi\Service;
+namespace Drupal\dropi\service;
 
 use Drupal\commerce_price\Price;
 use Drupal\Core\Config\ConfigFactoryInterface;

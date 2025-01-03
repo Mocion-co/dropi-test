@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function dropi_theme($existing, $type, $theme, $path) {
+  return [
+    'dropi_product_list' => [
+      'path' => $path . '/templates',
+      'variables' => [
+        'products' => [],
+      ],
+    ],
+  ];
+}

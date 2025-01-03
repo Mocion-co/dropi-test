@@ -3,7 +3,7 @@
 namespace Drupal\dropi\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
-use Drupal\dropi\DropiService;
+use Drupal\dropi\service\DropiService;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 /**
@@ -27,25 +27,27 @@ class DropiController extends ControllerBase {
   }
 
   /**
+   * Gets the inbox content.
    *
+   * @return array
+   *   The renderable array.
    */
-  public function display() {
-    $data = $this->apiService->fetchData();
+  public function display(): array {
+    $data = $this->apiService->getProducts();
 
-    if ($data) {
-      $output = [
-        '#theme' => 'item_list',
-        '#items' => $data,
-        '#title' => $this->t('API Data'),
+    if ($data && isset($data['objects'])) {
+      // print_r($data['objects']);
+      return [
+        '#theme' => 'dropi_product_list',
+        '#products' => $data['objects'],
+        '#title' => $this->t('Dropi Products'),
       ];
     }
     else {
-      $output = [
+      return [
         '#markup' => $this->t('Unable to fetch data from the API.'),
       ];
     }
-
-    return $output;
   }
 
 }
