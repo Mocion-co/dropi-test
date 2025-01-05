@@ -2,7 +2,7 @@ name: Allis
 type: theme
 description: 'Es un tema moderno y adaptable para hostales, con colores relajantes y un diseño optimizado para móviles y escritorio, destacando una sección de reservas y listados de habitaciones.'
 core_version_requirement: ^10
-base theme: stable9
+base theme: kart
 libraries:
   - allis/global-styling
   - allis/global-scripts

@@ -1,58 +1,67 @@
-/* Variables CSS con la paleta de colores */
-:root {
-  --color-primary: #284869;    /* Azul oscuro */
-  --color-secondary: #498183;  /* Verde azulado */
-  --color-accent: #93c59d;     /* Verde claro */
-  --color-light: #f6fdd1;      /* Crema */
-  --color-neutral: #93aa94;    /* Verde grisáceo */
-}
-
-/* Estilos base */
+/* styles.css */
 body {
-  background-color: var(--color-light);
-  color: var(--color-primary);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Header */
-.region-header {
-  background-color: var(--color-primary);
-  color: white;
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* Menú principal */
-.region-primary-menu {
-  background-color: var(--color-secondary);
+.site-header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
 }
 
-.region-primary-menu a {
-  color: white;
+.site-logo img {
+  max-height: 50px;
 }
 
-/* Enlaces */
-a {
-  color: var(--color-secondary);
+.site-navigation {
+  float: right;
 }
 
-a:hover {
-  color: var(--color-primary);
+.site-main {
+  padding: 2rem 0;
 }
 
-/* Botones */
-.button {
-  background-color: var(--color-accent);
-  color: var(--color-primary);
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
+.hero {
+  background: url('/path/to/hero-image.jpg') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 0;
 }
 
-.button:hover {
-  background-color: var(--color-secondary);
-  color: white;
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* Footer */
-.region-footer {
-  background-color: var(--color-neutral);
-  color: white;
+.booking-form label {
+  margin: 0.5rem 0;
+}
+
+.booking-form input,
+.booking-form button {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+.rooms,
+.contact {
+  padding: 2rem 0;
+}
+
+.site-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
 }
